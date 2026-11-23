@@ -53,6 +53,7 @@ const About = () => {
             <h2 className="max-w-2xl text-4xl font-bold md:text-5xl">
               Meet Joji, your personal trainer in Kadavanthra, Kochi
             </h2>
+            
 
             <p className="max-w-md leading-relaxed text-gray-500 md:text-right">
               Strength training, smart nutrition and accountability, built
