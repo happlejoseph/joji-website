@@ -1,8 +1,7 @@
 
 
 import { useEffect, useRef, useState } from "react";
-import bannerImage from "../assets/achieving-success-together-banner.webp";
-
+import bannerImage from "../assets/achieving-success-together-banner-optimized.webp";
 const Banner = () => {
   const ref = useRef(null);
   const [visible, setVisible] = useState(false);

@@ -2,9 +2,9 @@
 
 import { Plus } from "lucide-react"
 
-import personalImage from "../assets/personal-training-session.webp"
-import groupImage from "../assets/group-training-kadavanthra.webp"
-import dietImage from "../assets/nutrition-coaching.webp"
+import personalImage from "../assets/personal-training-session-optimized.webp"
+import groupImage from "../assets/group-training-kadavanthra-optimized.webp"
+import dietImage from "../assets/nutrition-coaching-optimized.webp"
 
 const services = [
   {
@@ -12,7 +12,7 @@ const services = [
     image: personalImage,
     alt: "Personal training session with Joji Fitness in Kadavanthra, Kochi",
     description:
-      "One-to-one personal training in Kadavanthra, Kochi, designed around your fitness goals, schedule and experience level.",
+      "Personalized online and offline personal training designed around your fitness goals, schedule and experience level. Offline sessions are available within approximately 5 km of Kadavanthra, Kochi.",
   },
   {
     title: "Group & Functional Training",

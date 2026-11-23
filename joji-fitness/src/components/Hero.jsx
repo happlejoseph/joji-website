@@ -1,6 +1,6 @@
 
 
-import heroImage from "../assets/personal-trainer-kadavanthra.webp";
+import heroImage from "../assets/personal-trainer-kadavanthra-optimized.webp";
 import SocialLinks from "./SocialLinks";
 import { socials } from "../data/socials";
 
@@ -9,7 +9,7 @@ const Hero = () => {
     <section className="relative flex min-h-svh items-center bg-black text-white">
       <img
         src={heroImage}
-        alt="Man doing a dumbbell curl on a gym bench, personal training with Joji Fitness in Kadavanthra, Kochi"
+        alt="Joji Fitness personal training session in Kadavanthra, Kochi"
         fetchPriority="high"
         className="absolute inset-0 h-full w-full object-cover"
       />
@@ -31,11 +31,11 @@ const Hero = () => {
         </p>
 
         <p className="mt-6 max-w-2xl text-base text-gray-300 md:text-lg">
-          One-to-one personal training in Kadavanthra, Kochi for strength,
-          weight loss and muscle gain. Every program includes nutrition
-          guidance and regular check-ins, and is built around your lifestyle,
-          your schedule and your goals, whether you are a complete beginner or
-          already training.
+          Achieve your fitness goals with personalized online and offline
+          personal training, group fitness sessions and nutrition guidance.
+          Offline training is available within approximately 5 km of
+          Kadavanthra, Kochi, with programs designed around your goals,
+          fitness level and lifestyle.
         </p>
 
         <a

@@ -6,8 +6,7 @@ import useCountUp from "../hooks/useCountUp";
 import { stats } from "../data/stats";
 import { credentials } from "../data/credentials";
 import { socials } from "../data/socials";
-import portraitImage from "../assets/joji-personal-trainer-kadavanthra.webp";
-
+import portraitImage from "../assets/joji-personal-trainer-kadavanthra-optimized.webp";
 const StatCard = ({ value, suffix, label }) => {
   const [ref, count] = useCountUp(value, 2000);
 
@@ -85,13 +84,14 @@ const About = () => {
                 />
 
                 <p className="mt-6 max-w-xl text-xl font-medium leading-snug">
-                  I’m Joji, a REPS Level 3 personal trainer in Kadavanthra,
-                  Kochi with over five years of coaching experience and a
-                  Diploma in Personal Training. I help clients build strength,
-                  improve body composition and stay consistent through clear,
-                  structured programs: strength training, functional and group
-                  training, and supplement guidance, built around your routine,
-                  not against it.
+                  I’m Joji, a personal trainer based in Kadavanthra, Kochi,
+                  helping individuals achieve their fitness goals through
+                  personalized online and offline training. With over 5
+                  years of coaching experience, I focus on strength training,
+                  functional fitness, group training and personalized nutrition
+                  guidance. Whether you prefer one-to-one coaching or group
+                  sessions, I help you build strength, improve fitness and
+                  develop a consistent, healthy lifestyle.
                 </p>
 
                 {/* Credentials */}

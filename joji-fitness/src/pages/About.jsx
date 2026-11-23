@@ -2,8 +2,8 @@
 
 import { Plus } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "../assets/personal-fitness-training-banner.webp";
-import portraitImage from "../assets/joji-personal-trainer-kadavanthra.webp";
+import heroImage from "../assets/personal-fitness-training-banner-optimized.webp";
+import portraitImage from "../assets/joji-personal-trainer-kadavanthra-optimized.webp";
 import useCountUp from "../hooks/useCountUp";
 import usePageMeta from "../hooks/usePageMeta";
 import { qualifications } from "../data/qualifications";
@@ -11,20 +11,20 @@ import Cta from "../components/Cta";
 
 const helpAreas = [
   {
-    title: "Strength training",
-    text: "Structured strength programs that build muscle, power and confidence, whether you are starting out or already lifting.",
+    title: "Personal Training",
+    text: "Personalized one-to-one online and offline training programs designed around your fitness goals, experience and daily routine. Offline sessions are available within approximately 5 km of Kadavanthra, Kochi.",
   },
   {
-    title: "Body composition and weight loss",
-    text: "Training and habits that help you lose fat and gain lean muscle in a way you can sustain.",
+    title: "Strength Training & Weight Loss",
+    text: "Structured fitness programs that help build muscle, improve strength, manage body composition and develop sustainable healthy habits.",
   },
   {
-    title: "Functional and group training",
-    text: "Movement-based sessions that improve mobility, balance and everyday fitness, alone or with friends.",
+    title: "Group & Functional Training",
+    text: "Guided group workouts and functional training sessions that improve strength, endurance, mobility and overall fitness.",
   },
   {
     title: "Nutrition and supplement guidance",
-    text: "Clear, practical advice on eating and supplements that fits your goals and your lifestyle.",
+    text: "Practical nutrition guidance and personalized diet planning to complement your training routine and support your fitness goals.",
   },
 ];
 
@@ -69,7 +69,7 @@ const InfoCard = ({ value, suffix = "", title, text }) => {
 const About = () => {
   usePageMeta(
     "About Joji | Personal Trainer in Kadavanthra, Kochi",
-    "Meet Joji, a REPS Level 3 personal trainer in Kadavanthra, Kochi with 5+ years of coaching experience in strength training, body composition and nutrition guidance."
+    "Meet Joji, a personal trainer offering online and offline personal training, group fitness, and nutrition guidance in Kadavanthra, Kochi and nearby areas."
   );
 
   return (
@@ -101,9 +101,9 @@ const About = () => {
             <Label>About me</Label>
 
             <h2 className="max-w-5xl text-3xl font-bold leading-tight md:text-5xl">
-              Joji helps individuals in Kadavanthra, Kochi build strength,
-              stay consistent and achieve real, lasting results through a
-              structured and personalized approach.
+              Helping individuals build strength, improve fitness and achieve
+              healthier lifestyles through personalized online and offline
+              training in Kadavanthra, Kochi and nearby areas.
             </h2>
 
             <div className="mt-12 grid gap-2 md:grid-cols-[1.1fr_1fr]">
@@ -118,13 +118,13 @@ const About = () => {
                 <div className="rounded-2xl bg-white p-6">
                   <h3 className="text-xl font-medium">Built for real results</h3>
                   <p className="mt-3 leading-relaxed text-gray-500">
-                    My coaching combines structured strength training, smart
-                    nutrition guidance and accountability to help clients in
-                    Kadavanthra, Kochi build strength and stay consistent over
-                    time. I have over five years of experience helping people
-                    improve their fitness and overall well-being, and I train
-                    every client with a plan built around their goals and
-                    routine.
+                    My coaching focuses on helping individuals improve their
+                    strength, fitness and overall well-being through personalized
+                    training. I offer online personal training and offline
+                    coaching within approximately 5 km of Kadavanthra, Kochi.
+                    My approach combines strength training, functional fitness,
+                    group training and practical nutrition guidance, with programs
+                    designed around each client's goals, fitness level and routine.
                   </p>
                 </div>
 
@@ -161,8 +161,9 @@ const About = () => {
               </h2>
 
               <p className="max-w-md leading-relaxed text-gray-500 md:text-right">
-                Trained through Leaders Fitness Academy, with more than five
-                years of coaching experience in gyms across Kerala.
+                Explore Joji's professional fitness training qualifications
+                and experience in personal training, strength development
+                and functional fitness.
               </p>
             </div>
 
@@ -220,8 +221,10 @@ const About = () => {
 
             {/* Add nearby areas here only if Joji really trains clients there */}
             <p className="mt-6 max-w-2xl text-gray-500">
-              Based in Kadavanthra, Kochi, Kerala. Message Joji on WhatsApp to
-              talk through your goals and find the right program.
+              Based in Kadavanthra, Kochi, Kerala, Joji offers offline
+              personal training within approximately 5 km of Kadavanthra,
+              along with online coaching for clients. Contact Joji to discuss
+              your fitness goals and find the right training program.
             </p>
           </div>
         </div>

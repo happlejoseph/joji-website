@@ -1,6 +1,6 @@
 
 
-import ctaImage from "../assets/cta-training.webp";
+import ctaImage from "../assets/cta-training-optimized.webp";
 import { socials } from "../data/socials";
 
 const Cta = () => {
