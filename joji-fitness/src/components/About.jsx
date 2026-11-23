@@ -126,7 +126,7 @@ const About = () => {
                   href={socials.whatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded bg-black px-5 py-3 font-semibold text-white transition hover:bg-lime-400 hover:text-black"
+                  className="w-full whitespace-nowrap rounded bg-black px-5 py-3 text-center font-semibold text-white transition hover:bg-lime-400 hover:text-black sm:w-auto"
                 >
                   Contact Me
                 </a>

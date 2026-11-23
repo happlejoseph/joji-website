@@ -34,7 +34,7 @@ const Services = () => {
   return (
     <section
       id="service"
-      className="bg-[#F5F1E8] px-8 py-24 text-black"
+      className="bg-[#F5F1E8] px-6 py-24 text-black md:px-8"
     >
       <div className="relative mx-auto max-w-7xl">
         {/* Vertical Lines */}
@@ -72,16 +72,14 @@ const Services = () => {
           {/* Service Cards */}
           <ul className="mt-16 grid gap-8 md:grid-cols-3">
             {services.map((service) => (
-              <li key={service.title} className="group">
+              <li key={service.title} className="group min-w-0">
                 {/* Image */}
-                <div className="relative overflow-hidden rounded-2xl">
+                <div className="relative h-72 overflow-hidden rounded-2xl sm:h-80">
                   <img
                     src={service.image}
                     alt={service.alt}
-                    width="800"
-                    height="320"
                     loading="lazy"
-                    className="h-[320px] w-full object-cover transition duration-700 group-hover:scale-105"
+                    className="absolute inset-0 h-full w-full object-cover object-center transition duration-700 group-hover:scale-105"
                   />
 
                   {/* Dark Overlay */}
